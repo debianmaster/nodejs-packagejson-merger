@@ -1,6 +1,6 @@
 {
   "name": "package-merger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This modules reads all directories inside current directory for  package.json files and creates a master package.json",
   "preferGlobal": true,
   "bin": {
