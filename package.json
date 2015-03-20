@@ -1,0 +1,25 @@
+{
+  "name": "package-merger",
+  "version": "1.0.0",
+  "description": "This modules reads all directories inside current directory for  package.json files and creates a master package.json",
+  "preferGlobal": true,
+  "bin": {
+    "package-merger": "index.js"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "package.json",
+    "merger",
+    "docker",
+    "base",
+    "image"
+  ],
+  "author": "Chakradhar Jonagam",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "object-merge": "^2.5.1"
+  }
+}
